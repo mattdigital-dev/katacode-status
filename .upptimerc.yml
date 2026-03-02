@@ -2,36 +2,102 @@ owner: mattdigital-dev
 repo: katacode-status
 
 sites:
-  - name: Web Platform
+  - name: 🌐 Web Platform
     url: https://katacode.fr
+    icon: https://katacode.fr/favicon-32x32.webp
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+    maxResponseTime: 5000
 
-  - name: API
+  - name: ⚡ API
     url: https://api.katacode.fr/api/health
+    icon: https://katacode.fr/favicon-32x32.webp
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 3000
 
-  - name: Auth
+  - name: 🔐 Auth
     url: https://api.katacode.fr/api/health/auth
+    icon: https://katacode.fr/favicon-32x32.webp
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 2000
 
-  - name: Database
+  - name: 🗄️ Database
     url: https://api.katacode.fr/api/health/database
+    icon: https://katacode.fr/favicon-32x32.webp
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 2000
 
-  - name: Redis
+  - name: 🚀 Redis
     url: https://api.katacode.fr/api/health/redis
+    icon: https://katacode.fr/favicon-32x32.webp
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 2000
 
-  - name: Storage (S3)
+  - name: 📦 Storage (S3)
     url: https://api.katacode.fr/api/health/s3
+    icon: https://katacode.fr/favicon-32x32.webp
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 4000
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.katacode.fr
   name: Status KataCode
+  logoUrl: https://katacode.fr/favicon-32x32.webp
+  favicon: https://katacode.fr/favicon-32x32.webp
+  theme: dark
   introTitle: "Statut des services KataCode"
-  introMessage: "Surveillance automatisée toutes les 5 minutes via GitHub Actions."
+  introMessage: |
+    Surveillance automatisée toutes les 5 minutes.
+
+    En cas de souci : consulte la page ou contacte le support.
   navbar:
-    - title: Status
+    - title: 🏠 Accueil
+      href: https://katacode.fr
+    - title: 📚 Docs
+      href: https://katacode.fr/docs
+    - title: 💬 Support
+      href: https://katacode.fr/contact
+    - title: 📊 Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+  metaTags:
+    - name: description
+      content: "Statut en temps réel des services KataCode"
+    - name: og:title
+      content: "Status KataCode"
+    - name: og:description
+      content: "Surveillance automatisée des services KataCode"
+
+  i18n:
+    activeIncidents: Incidents actifs
+    allSystemsOperational: Tous les systèmes sont opérationnels
+    incidentReport: "Incident du $DATE : $TITLE"
+    incidentDetails: Détails de l'incident
+    incidentFixed: Résolu
+    incidentOngoing: En cours
+    incidentOpenedAt: Ouvert le
+    incidentClosedAt: Résolu le
+    incidentViewOnGitHub: Voir sur GitHub
+    pastIncidents: Incidents passés
+    liveStatus: Statut en direct
+    overallUptime: "Disponibilité globale : $UPTIME"
+    averageResponseTime: "Temps de réponse moyen : $TIMEms"
+    loading: Chargement
+    navGitHub: GitHub
+    footer: |
+      Propulsé par [Upptime](https://upptime.js.org) •
+      Code sur [GitHub](https://github.com/$OWNER/$REPO)
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
