@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.katacode.fr.ico",
     "slug": "api",
     "status": "down",
-    "uptime": "5.38%",
-    "uptimeDay": "5.38%",
-    "uptimeWeek": "5.38%",
-    "uptimeMonth": "5.38%",
-    "uptimeYear": "5.38%",
+    "uptime": "0.17%",
+    "uptimeDay": "0.17%",
+    "uptimeWeek": "0.17%",
+    "uptimeMonth": "0.17%",
+    "uptimeYear": "0.17%",
     "time": 702,
     "timeDay": 702,
     "timeWeek": 702,
     "timeMonth": 702,
     "timeYear": 702,
     "dailyMinutesDown": {
-      "2026-03-02": 0
+      "2026-03-02": 10
     }
   },
   {
@@ -42,19 +42,19 @@
     "url": "https://api.katacode.fr/api/health/auth",
     "icon": "https://icons.duckduckgo.com/ip3/api.katacode.fr.ico",
     "slug": "auth",
-    "status": "down",
-    "uptime": "3.03%",
-    "uptimeDay": "3.03%",
-    "uptimeWeek": "3.03%",
-    "uptimeMonth": "3.03%",
-    "uptimeYear": "3.03%",
-    "time": 137,
-    "timeDay": 137,
-    "timeWeek": 137,
-    "timeMonth": 137,
-    "timeYear": 137,
+    "status": "up",
+    "uptime": "1.51%",
+    "uptimeDay": "1.51%",
+    "uptimeWeek": "1.51%",
+    "uptimeMonth": "1.51%",
+    "uptimeYear": "1.51%",
+    "time": 216,
+    "timeDay": 216,
+    "timeWeek": 216,
+    "timeMonth": 216,
+    "timeYear": 216,
     "dailyMinutesDown": {
-      "2026-03-02": 0
+      "2026-03-02": 10
     }
   },
   {
@@ -62,19 +62,19 @@
     "url": "https://api.katacode.fr/api/health/database",
     "icon": "https://icons.duckduckgo.com/ip3/api.katacode.fr.ico",
     "slug": "database",
-    "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
-    "time": 137,
-    "timeDay": 137,
-    "timeWeek": 137,
-    "timeMonth": 137,
-    "timeYear": 137,
+    "status": "up",
+    "uptime": "1.07%",
+    "uptimeDay": "1.07%",
+    "uptimeWeek": "1.07%",
+    "uptimeMonth": "1.07%",
+    "uptimeYear": "1.07%",
+    "time": 217,
+    "timeDay": 217,
+    "timeWeek": 217,
+    "timeMonth": 217,
+    "timeYear": 217,
     "dailyMinutesDown": {
-      "2026-03-02": 0
+      "2026-03-02": 10
     }
   },
   {
@@ -82,19 +82,19 @@
     "url": "https://api.katacode.fr/api/health/redis",
     "icon": "https://icons.duckduckgo.com/ip3/api.katacode.fr.ico",
     "slug": "redis",
-    "status": "down",
-    "uptime": "5.25%",
-    "uptimeDay": "5.25%",
-    "uptimeWeek": "5.25%",
-    "uptimeMonth": "5.25%",
-    "uptimeYear": "5.25%",
-    "time": 137,
-    "timeDay": 137,
-    "timeWeek": 137,
-    "timeMonth": 137,
-    "timeYear": 137,
+    "status": "up",
+    "uptime": "0.90%",
+    "uptimeDay": "0.90%",
+    "uptimeWeek": "0.90%",
+    "uptimeMonth": "0.90%",
+    "uptimeYear": "0.90%",
+    "time": 135,
+    "timeDay": 135,
+    "timeWeek": 135,
+    "timeMonth": 135,
+    "timeYear": 135,
     "dailyMinutesDown": {
-      "2026-03-02": 0
+      "2026-03-02": 10
     }
   },
   {
@@ -114,7 +114,7 @@
     "timeMonth": 137,
     "timeYear": 137,
     "dailyMinutesDown": {
-      "2026-03-02": 0
+      "2026-03-02": 10
     }
   }
 ]
