@@ -1,7 +1,7 @@
 url: https://api.katacode.fr/api/health
-status: down
+status: degraded
 code: 503
-responseTime: 985
-lastUpdated: 2026-03-02T23:11:34.097Z
+responseTime: 5547
+lastUpdated: 2026-03-03T05:53:44.649Z
 startTime: 2026-03-02T15:34:41.401Z
 generator: Upptime <https://github.com/upptime/upptime>
