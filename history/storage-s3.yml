@@ -1,7 +1,7 @@
 url: https://api.katacode.fr/api/health/s3
 status: down
 code: 503
-responseTime: 193
-lastUpdated: 2026-03-06T23:09:25.167Z
+responseTime: 241
+lastUpdated: 2026-03-07T23:07:05.889Z
 startTime: 2026-03-02T15:34:51.786Z
 generator: Upptime <https://github.com/upptime/upptime>
