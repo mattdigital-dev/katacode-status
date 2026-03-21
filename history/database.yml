@@ -1,7 +1,7 @@
 url: https://api.katacode.fr/api/health/database
 status: up
 code: 200
-responseTime: 269
-lastUpdated: 2026-03-20T23:10:05.083Z
+responseTime: 303
+lastUpdated: 2026-03-21T23:08:31.926Z
 startTime: 2026-03-02T15:34:46.730Z
 generator: Upptime <https://github.com/upptime/upptime>
