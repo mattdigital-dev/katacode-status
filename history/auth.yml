@@ -1,7 +1,7 @@
 url: https://api.katacode.fr/api/health/auth
-status: down
-code: 502
-responseTime: 95
-lastUpdated: 2026-03-24T23:55:35.732Z
+status: up
+code: 200
+responseTime: 313
+lastUpdated: 2026-03-25T00:47:05.559Z
 startTime: 2026-03-02T15:34:44.489Z
 generator: Upptime <https://github.com/upptime/upptime>
