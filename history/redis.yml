@@ -1,7 +1,7 @@
 url: https://api.katacode.fr/api/health/redis
 status: down
 code: 502
-responseTime: 93
-lastUpdated: 2026-04-02T23:12:55.444Z
+responseTime: 90
+lastUpdated: 2026-04-03T23:13:14.863Z
 startTime: 2026-03-02T15:34:49.318Z
 generator: Upptime <https://github.com/upptime/upptime>
